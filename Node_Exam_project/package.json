@@ -1,0 +1,28 @@
+{
+  "name": "node-exam-project",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Exam project by Freja Johannessen for Node fullstack. The project is meant to be a platform for deck creation in the card game Magic the gathering. Nice to have is calling scryfalls api, to get updates on new cards and prices, whilst upholding their rate limits.",
+  "keywords": [
+    "Magic",
+    "the",
+    "gathering",
+    "deckbuilder",
+    "cardgame",
+    "organizing"
+  ],
+  "license": "ISC",
+  "author": "Freja Johannessen",
+  "type": "module",
+  "main": "app.svelte",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.6"
+  }
+}
